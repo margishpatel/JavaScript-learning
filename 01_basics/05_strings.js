@@ -31,6 +31,19 @@ const url = "https://margish.com/home%20page"
 //++++++++++++++++++++++++++++++++++++++++++++++//
 
 let str = "My name is Margish Patel, My vilage name is Dhoraji"
+// let str2 = "Yes I am"
+// let str3 = "NO I am"
+
+// let str4 = 150
+
+let a = str.toString();
+// let a = str.substring(3, 6);
+// let a = str.substr(0, 6);
+// let a = str.slice(3, 10);
+// let a = str.split(" ");
+// let a = str.concat(str2 + str3);
+
+// let a = str.concat(str2 + str3);
 
 // let a = str.length;
 // let a = str.toLowerCase();
@@ -43,7 +56,12 @@ let str = "My name is Margish Patel, My vilage name is Dhoraji"
 
 // let a = str.match(/is/g);
 // let a = str.lastIndexOf("is");
-let a = str.replace("Dhoraji", "AMD");
+// let a = str.replace("Dhoraji", "AMD");
+// let a = str.charAt('3');
+// let a = str.charCodeAt('3');
+
+// let a = str.repeat("2");
+
 
 console.log(a);
 // console.log(typeof(a)); 
