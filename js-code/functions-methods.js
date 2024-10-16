@@ -13,10 +13,10 @@
 
 // funName("I love JS")
 
-function sumFunc(x, y) {
-    s = x + y;
-    return s;
-}
+// function sumFunc(x, y) {
+//     s = x + y;
+//     return s;
+// }
 
-let val = sumFunc(3, 4);
-console.log(val);
+// let val = sumFunc(3, 4);
+// console.log(val);

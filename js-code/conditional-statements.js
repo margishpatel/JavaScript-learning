@@ -131,3 +131,58 @@
 
 
 
+
+
+// let age = 18
+// let hasVoterCard = "Yes"
+
+// if (age >= 18 && hasVoterCard === "Yes") {
+//     console.log("you can vote");
+//     // console.log("good you have voter card");
+// } else {
+//     console.log("you can not vote");
+//     // console.log("sorry you don't have voter card");
+// }
+
+// let age = prompt("Please enter your age:");
+// let hasVoterCard = prompt("You Have voter id card Yes/No")
+
+// if (age >= 18 && hasVoterCard == "Yes") {
+//     console.log("you can vote");
+// } else if (age >= 18 && hasVoterCard != "Yes") {
+//     console.log("Pleae get your voter id card");
+// } else {
+//     console.log("you can not vote");
+// }
+
+// if (age >= 18) {
+//     if (hasVoterCard == "Yes") {
+//         console.log("you can vote");
+//     } else {
+//         console.log("Pleae get your voter id card");
+//     }
+// } else {
+//     console.log("you can not vote");
+// }
+
+
+let isLoggedIn = 1; // if 0 loggedout if 1 login
+
+// if (isLoggedIn == 0) {
+//     console.log("Login");
+// } else {
+//     console.log("Logout");
+// }
+
+
+
+// let logCheck = isLoggedIn == 1 ? "Logout" : "Login"
+// //               condition     ?    true  :   false
+// console.log(logCheck);
+
+
+
+let user;
+// user = "margish"
+console.log(user ?? "Guest User");
+
