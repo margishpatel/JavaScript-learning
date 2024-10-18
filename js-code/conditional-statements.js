@@ -182,7 +182,45 @@ let isLoggedIn = 1; // if 0 loggedout if 1 login
 
 
 
-let user;
-// user = "margish"
-console.log(user ?? "Guest User");
+// let user;
+// // user = "margish"
+// console.log(user ?? "Guest User");
 
+
+let input;
+
+input = 1;
+
+// if (input === 1 || input === "y" || input === "yes") {
+//     console.log("continue...");
+// } else if (input === 0) {
+//     console.log("end...");
+// } else if (input === "n") {
+//     console.log("end...");
+// } else if (input === "no") {
+//     console.log("end...");
+// } else {
+//     console.log("Wrong...");
+// }
+
+
+switch (input) {
+    case 1: //if (input === 1)
+    case "y": //if (input === "y")
+    case "yes": //if (input === "yes")
+        console.log("Continue...");
+        break;
+    case 0: //if (input === "0")
+        console.log("A End...");
+        break;
+    case "n": //if (input === "n")
+        console.log("B End...");
+        break;
+    case "no": //if (input === "no")
+        console.log("C End...");
+        break;
+
+    default:
+        console.log("Wrong...");
+        break;
+}
