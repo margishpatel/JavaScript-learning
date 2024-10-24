@@ -204,23 +204,93 @@ input = 1;
 // }
 
 
-switch (input) {
-    case 1: //if (input === 1)
-    case "y": //if (input === "y")
-    case "yes": //if (input === "yes")
-        console.log("Continue...");
-        break;
-    case 0: //if (input === "0")
-        console.log("A End...");
-        break;
-    case "n": //if (input === "n")
-        console.log("B End...");
-        break;
-    case "no": //if (input === "no")
-        console.log("C End...");
-        break;
+// switch (input) {
+//     case 1: //if (input === 1)
+//     case "y": //if (input === "y")
+//     case "yes": //if (input === "yes")
+//         console.log("Continue...");
+//         break;
+//     case 0: //if (input === "0")
+//         console.log("A End...");
+//         break;
+//     case "n": //if (input === "n")
+//         console.log("B End...");
+//         break;
+//     case "no": //if (input === "no")
+//         console.log("C End...");
+//         break;
 
-    default:
-        console.log("Wrong...");
-        break;
-}
+//     default:
+//         console.log("Wrong...");
+//         break;
+// }
+
+
+//Q1) Check Even or Odd:
+//Write a program that asks the user to input a number and checks whether the number is even or odd.
+
+// let num = 11;
+
+// if (num % 2 === 0) {
+//     console.log(num, "is even");
+// } else {
+//     console.log(num, "is odd");
+// }
+
+
+
+//Q2) Voting Eligibility:
+//Write a program that checks whether a person is eligible to vote based on their age (18 or above).
+
+// let age = 28;
+
+// if(age >= 18){
+//     console.log("You can vote");  
+// } else{
+//     console.log("you cannot vote");
+// }
+
+//Q3) Positive, Negative, or Zero:
+//Write a program to check if a number is positive, negative, or zero.
+
+// let num = 5;
+
+// if (num > 0) {
+//     console.log("positive number");
+// } else if (num < 0) {
+//     console.log("nagative number");
+// } else {
+//     console.log("zero number");
+// }
+
+
+//Q3) Compare two numbers and print the larger one.
+
+// let a = 30;
+// let b = 45;
+
+// if (a > b) {
+//     console.log(a);
+// } else if (b > a) {
+//     console.log(b);
+// }
+
+
+
+//Q4: Determine if a string contains more than 5 characters.
+
+// let str = "Hello"
+
+// if (str.length > 5) {
+//     console.log(str, "More than 5 characters");
+// } else if (str.length <= 5) {
+//     console.log(str, "5 and Less than 5 characters");
+// }
+
+
+
+// Check if a number is divisible by 2 and 3.
+// Determine if a string starts with the letter "A".
+// Check if a given year is a leap year or not.
+// Compare the lengths of two strings and print which one is longer.
+// Check if a variable is a number or not.
