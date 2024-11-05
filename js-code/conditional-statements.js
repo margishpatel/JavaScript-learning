@@ -290,7 +290,24 @@ input = 1;
 
 
 // Check if a number is divisible by 2 and 3.
+// let num = prompt("Enter Number...");
+
+// if (num % 2 === 0 && num % 3 === 0) {
+//     console.log(num, "Divisible by 2 and 3");
+// } else {
+//     console.log("Not Divisible by 2 and 3");
+// }
+
+
 // Determine if a string starts with the letter "A".
 // Check if a given year is a leap year or not.
 // Compare the lengths of two strings and print which one is longer.
 // Check if a variable is a number or not.
+
+
+
+// Check if a string ends with the letter "z".
+// Determine if a given temperature (in Celsius) is above or below freezing (0°C).
+// Check if a number is between 10 and 50.
+// Determine if a given year is in the 21st century (years between 2001 and 2100).
+// Check if an array has more than 5 elements.
