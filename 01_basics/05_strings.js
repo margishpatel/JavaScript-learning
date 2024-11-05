@@ -30,13 +30,13 @@ const url = "https://margish.com/home%20page"
 
 //++++++++++++++++++++++++++++++++++++++++++++++//
 
-let str = "My name is Margish Patel, My vilage name is Dhoraji"
+// let str = "My name is Margish Patel, My vilage name is Dhoraji"
 // let str2 = "Yes I am"
 // let str3 = "NO I am"
 
 // let str4 = 150
 
-let a = str.toString();
+// let a = str.toString();
 // let a = str.substring(3, 6);
 // let a = str.substr(0, 6);
 // let a = str.slice(3, 10);
@@ -63,6 +63,6 @@ let a = str.toString();
 // let a = str.repeat("2");
 
 
-console.log(a);
+// console.log(a);
 // console.log(typeof(a)); 
 
